@@ -1,0 +1,27 @@
+{
+  "name": "chengyu",
+  "version": "0.0.0",
+  "main": "lib/chengyu.js",
+  "description": "chengyu in your command line..",
+  "homepage": "https://github.com/lyuehh/chengyu",
+  "bugs": "https://github.com/lyuehh/chengyu/issues",
+  "author": {
+    "name": "lyuehh",
+    "email": "lyuehh@gmail.com",
+    "url": "http://lyuehh.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lyuehh/chengyu"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt-contrib-watch": "~0.5.0"
+  }
+}
