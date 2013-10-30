@@ -1,6 +1,6 @@
 {
   "name": "chengyu",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "main": "lib/chengyu.js",
   "description": "chengyu in your command line..",
   "homepage": "https://github.com/lyuehh/chengyu",
@@ -19,6 +19,9 @@
       "type": "MIT"
     }
   ],
+  "bin": {
+    "chengyu": "./bin/chengyu"
+  },
   "dependencies": {
     "underscore": "*",
     "commander": "*"

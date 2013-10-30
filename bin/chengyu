@@ -1,12 +1,11 @@
 #!/usr/bin/env node
 var program = require('commander');
-var _ = require('underscore');
 var chengyu = require('../lib/chengyu.js');
 
 program
   .version('0.0.1')
   .option('-p, --pattern [pattern]', 'chengyu followed this pattern, like AABB ABCC etc...')
-  .option('-e, --exact [exact]', 'chengyu followed this order, like 一xxx xx必x')
+  .option('-w, --word [word]', 'chengyu has this word in this order, like 一xxx xx必x')
   .option('-i, --include [include]', 'chengyu include the word, like 分')
   .option('--all', 'list all the chengyu')
   .parse(process.argv);
@@ -16,8 +15,8 @@ if (program.pattern) {
     process.exit(0);
 }
 
-if (program.exact) {
-    console.log('exact');
+if (program.word) {
+    chengyu.listByWord(program.word);
     process.exit(0);
 }
 
@@ -28,6 +27,6 @@ if (program.all) {
 
 
 if (program.include) {
-    console.log('include');
+    chengyu.listByInclude(program.include);
     process.exit(0);
 }
