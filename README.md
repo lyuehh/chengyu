@@ -41,6 +41,7 @@ Just send me the pull request.
 ## Release History
 
 * 0.0.2 -w -i now work 2013-10-30
+* 0.0.3 fix path error 2013-10-31
 
 ## License
 Copyright (c) 2013 lyuehh. Licensed under the MIT license.
