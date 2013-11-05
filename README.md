@@ -43,6 +43,7 @@ Just send me the pull request.
 * 0.0.2 -w -i now work 2013-10-30
 * 0.0.3 fix path error 2013-10-31
 * 0.0.4 update databse 2013-11-04
+* 0.0.5 remove 4 letters limit 2013-11-05
 
 ## License
 Copyright (c) 2013 lyuehh. Licensed under the MIT license.
