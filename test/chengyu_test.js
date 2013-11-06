@@ -30,7 +30,7 @@ exports['chengyu'] = {
   'no args': function(test) {
     test.expect(1);
     // tests here
-    test.equal(chengyu.awesome(), 'awesome', 'should be awesome.');
+    test.equal(chengyu.listByWord('a'), undefined, 'nothing return, so...');
     test.done();
   }
 };

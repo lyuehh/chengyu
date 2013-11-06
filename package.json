@@ -19,6 +19,9 @@
       "type": "MIT"
     }
   ],
+  "scripts": {
+    "test": "grunt"
+  },
   "bin": {
     "chengyu": "./bin/chengyu"
   },
