@@ -1,6 +1,6 @@
 {
   "name": "chengyu",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "main": "lib/chengyu.js",
   "description": "chengyu in your command line..",
   "homepage": "https://github.com/lyuehh/chengyu",
