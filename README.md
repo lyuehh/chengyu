@@ -34,6 +34,19 @@ $ chengyu  -i 一言
 季路一言
 ```
 
+```
+$ chengyu -p ABCC
+```
+
+```
+一息奄奄
+一表堂堂
+万目睽睽
+万里迢迢
+不甚了了
+...........
+```
+
 ## Contributing
 Just send me the pull request.
 **The database is too small, need more ...**
